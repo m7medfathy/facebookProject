@@ -1,20 +1,17 @@
 from tkinter import *
-
-# Create the main window
-root = Tk()
-root.geometry("400x300")
-
-# Create a canvas widget
-canvas = Canvas(root)
-canvas.pack(side=LEFT, fill=BOTH, expand=True)
-
-# Add a vertical scrollbar to the canvas
-scrollbar = Scrollbar(root, orient=VERTICAL, command=canvas.yview)
+fasdfdsafasdfadfasfasd
+# Create the main windowsdafsaddfsadf
+root = Tk()fasdsdaffas
+root.geometry("400x300")sdafdaffasdfsad
+ffsadfsda
+# Create a canvas widgetfasdfsdaffsadf
+fsad
+# Add a vertical scrollbar to the canvassdaf)
 scrollbar.pack(side=RIGHT, fill=Y)
 
-# Configure the canvas
+# Configure the canvassdafa
 canvas.configure(yscrollcommand=scrollbar.set)
-canvas.bind('<Configure>', lambda e: canvas.configure(
+canvas.bind('<Configure>', lambda e: canvas.configure(sadfsad
     scrollregion=canvas.bbox("all")))
 
 # Create a frame inside the canvas
